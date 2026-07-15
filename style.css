@@ -221,59 +221,26 @@ footer{
 @media(max-width:768px){
 
     nav{
-        padding:20px;
         flex-direction:column;
-        gap:15px;
+        padding:20px;
     }
-
 
     nav ul{
         flex-direction:column;
-        gap:10px;
         text-align:center;
+        display:none;
     }
 
-
-    section{
-        padding:30px 20px;
+    nav ul.active{
+        display:flex;
     }
 
-
-    #home img{
-        width:180px;
-        height:180px;
+    .menu-toggle{
+        display:block;
     }
 
-
-    h1{
-        font-size:35px;
-    }
-
-
-    h2{
-        font-size:25px;
-    }
-
-
-    p{
-        font-size:15px;
-    }
-
-
-    .skills-container{
-        flex-direction:column;
-    }
-
-
-    .card{
-        width:100%;
-    }
-
-
-    button{
-        width:90%;
-        margin-right:0;
-    }
-
-
+}
+.menu-toggle{
+    display:none;
+    font-size:25px;
 }
